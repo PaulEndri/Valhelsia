@@ -15,7 +15,7 @@
 	#Range: 0 ~ 100
 	campsite_mimic_chance = 30
 	#List of biome IDs in which campsites are not allowed to generate. End and nether biomes are excluded by default.
-	biome_blacklist = ["minecraft:void"]
+	biome_blacklist = ["minecraft:void", "twilightforest:*"]
 	#Per-chunk probability (as a percentage) a campsite is attempted to be generated. Not every attempt succeeds, this also depends on the density and shape of caves
 	#Range: 0 ~ 100
 	campsite_chance = 6

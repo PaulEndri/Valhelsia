@@ -1,0 +1,27 @@
+{
+  "key": "cloth",
+  "category": "fibre",
+  "primary": "3",
+  "secondary": "1",
+  "tertiary": "3.2",
+  "durability": "250",
+  "integrityCost": "2",
+  "integrityGain": "5",
+  "magicCapacity": "100",
+  "toolLevel": "0",
+  "toolEfficiency": "0",
+  "tints": {
+    "glyph": "828282",
+    "texture": "575757"
+  },
+  "textures": ["crude", "default"],
+  "material": {
+    "item": "eidolon:tattered_cloth"
+  },
+  "effects": {
+    "unstable": 10
+  },
+  "requiredTools": {
+    "cut": 2
+  }
+}

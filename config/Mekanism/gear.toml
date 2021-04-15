@@ -78,7 +78,7 @@
 	[gear.jetpack]
 		#Jetpack Gas Tank capacity in mB.
 		#Range: 1 ~ 9223372036854775807
-		maxGas = 24000
+		maxGas = 8000
 		#Amount of hydrogen the Jetpack can accept per tick.
 		#Range: 1 ~ 9223372036854775807
 		fillRate = 16

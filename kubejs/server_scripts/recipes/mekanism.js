@@ -60,6 +60,13 @@ events.listen('recipes', function (event) {
   event.recipes.mekanism.combining(Item.of('upgrade_aquatic:thorny_kelp', 8), Item.of('minecraft:kelp', 8), '#forge:dyes/brown')
   event.recipes.mekanism.combining(Item.of('upgrade_aquatic:tongue_kelp', 8), Item.of('minecraft:kelp', 8), '#forge:dyes/red')
 
+  event.recipes.mekanism.purifying('powah:uraninite', 'mekanism:ingot_uranium', { gas: 'mekanism:oxygen', amount: 200 })
+
+  // Extreme Reactors
+  event.recipes.mekanism.enriching(Item.of('bigreactors:yellorium_dust', 2), '#forge:ores/yellorite')
+  event.recipes.mekanism.enriching(Item.of('bigreactors:benitoite_crystal', 2), 'bigreactors:benitoite_ore')
+  event.recipes.mekanism.enriching(Item.of('bigreactors:anglesite_crystal', 2), 'bigreactors:anglesite_ore')
+
   // Create
   event.recipes.mekanism.metallurgic_infusing('create:rose_quartz', 'minecraft:nether_quartz', 'mekanism:redstone', 80) // 1 redstone = 10. Keeping in line w/ manual recipe
   event.recipes.mekanism.combining(Item.of('create:polished_redstone_quartz', 8), Item.of('create:rose_quartz', 8), '#forge:sandstone')

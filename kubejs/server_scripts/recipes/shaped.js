@@ -170,4 +170,11 @@ events.listen('recipes', function (event) {
     C: 'quark:bonded_leather'
   })
 
+  //Flux Networks
+  event.shaped(Item.of('fluxnetworks:flux_core', 4), ['ABA', 'CDC', 'ABA'], {
+    A: 'fluxnetworks:flux_dust',
+    B: 'minecraft:obsidian',
+    C: 'minecraft:diamond',
+    D: 'minecraft:ender_eye'
+  });
 })

@@ -54,6 +54,11 @@ events.listen('recipes', function (event) {
   // Eidolon Compat
   event.recipes.immersiveengineering.alloy(Item.of('eidolon:pewter_ingot', 4), Item.of('#forge:ingots/tin', 3), Item.of('#forge:ingots/lead', 1))
 
+  // ER Compat
+  event.recipes.immersiveengineering.crusher(Item.of('bigreactors:yellorium_dust', 2), '#forge:ores/yellorite')
+  event.recipes.immersiveengineering.crusher(Item.of('bigreactors:benitoite_crystal', 2), 'bigreactors:benitoite_ore')
+  event.recipes.immersiveengineering.crusher(Item.of('bigreactors:anglesite_crystal', 2), 'bigreactors:anglesite_ore')
+
   // Farmer's Delight Compat
   fermenter('immersiveengineering:ethanol', '#forge:seeds/rice', 80) // Also forward compatible with Environmental.
 

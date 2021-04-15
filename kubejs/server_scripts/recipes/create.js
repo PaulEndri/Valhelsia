@@ -26,6 +26,11 @@ events.listen('recipes', function (event) {
   // Decorative Blocks
   crushAndMill('minecraft:coarse_dirt', 'decorative_blocks:rocky_dirt')
 
+  // ER Compat
+  crushAndMill(Item.of('bigreactors:yellorium_dust', 2), '#forge:ores/yellorite')
+  crushAndMill(Item.of('bigreactors:benitoite_crystal', 2), 'bigreactors:benitoite_ore')
+  crushAndMill(Item.of('bigreactors:anglesite_crystal', 2), 'bigreactors:anglesite_ore')
+
   // The Endergetic Expansion
   event.recipes.create.cutting('endergetic:stripped_poise_stem', 'endergetic:poise_stem')
   event.recipes.create.cutting('endergetic:stripped_poise_wood', 'endergetic:poise_wood')

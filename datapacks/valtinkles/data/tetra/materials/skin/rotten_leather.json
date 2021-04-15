@@ -1,0 +1,27 @@
+{
+  "key": "rotten_leather",
+  "category": "skin",
+  "primary": "4",
+  "secondary": "2",
+  "tertiary": "1",
+  "durability": "150",
+  "integrityCost": "1",
+  "integrityGain": "3",
+  "magicCapacity": "100",
+  "toolLevel": "0",
+  "toolEfficiency": "0",
+  "tints": {
+    "glyph": "260101",
+    "texture": "leather"
+  },
+  "textures": ["crude", "default"],
+  "material": {
+    "item": "forbidden_arcanus:rotten_leather"
+  },
+  "effects": {
+    "unstable": 10
+  },
+  "requiredTools": {
+    "cut": 1
+  }
+}

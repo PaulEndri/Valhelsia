@@ -3,7 +3,7 @@
 events.listen('recipes', function (event) {
 
   var idRemove = [
-
+    'fluxnetworks:flux_core',
     // Autumnity
     'autumnity:lead_from_snail_slime', // Replaced with a tag recipe.
     'autumnity:sticky_piston_from_snail_slime', // Replaced with a tag recipe.
@@ -139,6 +139,7 @@ events.listen('recipes', function (event) {
   })
 
   var outputRemove = [
+    'fluxnetworks:flux_core',
     // Charm
     'charm:woodcutter', // Replaced with Druidcraft Woodcutter (and soon Environmental Sawmill)
 
@@ -228,4 +229,5 @@ events.listen('recipes', function (event) {
     event.remove({output: remove})
   })
 
+  event.remove({ mod: "waystones" })
 })
