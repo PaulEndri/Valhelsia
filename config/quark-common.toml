@@ -260,12 +260,12 @@
 		#Set to 0 to not generate in Dungeons
 		"Dungeon Weight" = 20
 		"Item Quality" = 2
-		"Apply Cost" = 35
+		"Apply Cost" = 20
 		#Set to 0 to not generate in Stronghold Libraries
 		"Library Weight" = 30
 		#Set to 0 to not generate in Monster Boxes
 		"Monster Box Weight" = 5
-		"Merge Cost" = 35
+		"Merge Cost" = 20
 		#Set to 0 to not generate in Bastions
 		"Bastion Weight" = 25
 		#Set to 0 to not generate in Woodland Mansions
@@ -304,7 +304,7 @@
 		"Desert Temple Weight" = 8
 		"Dungeon Weight" = 10
 		"Item Quality" = 0
-		"Apply Cost" = 15
+		"Apply Cost" = 5
 		"Nether Fortress Weight" = 8
 
 	[tools.pickarang]
@@ -461,6 +461,9 @@
 	[tweaks.replace_scaffolding]
 		#How many times the algorithm for finding out where a block would be placed is allowed to turn. If you set this to large values (> 3) it may start producing weird effects.
 		"Max Bounces" = 1
+
+	[tweaks.note_block_mob_sounds]
+		"Enable Vocaloid" = true
 
 [world]
 	"New Stone Types" = true
@@ -641,8 +644,6 @@
 			"Horizontal Size" = 30
 			#Allowed values: [0,)
 			Rarity = 240
-			#Allowed values: [0,255]
-			"Min Y Level" = 15
 			#Allowed values: [0,)
 			"Horizontal Variation" = 20
 			#Allowed values: [0,255]
@@ -651,6 +652,8 @@
 			"Vertical Size" = 4
 			#Allowed values: [0,)
 			"Vertical Variation" = 1
+			#Allowed values: [0,255]
+			"Min Y Level" = 15
 
 			[world.crevices.spawn_settings.biomes]
 				"Is Blacklist" = true
@@ -1728,16 +1731,16 @@
 		#Set this to true to allow the backpacks to be unequipped even with items in them
 		"Super Op Mode" = false
 
+	[oddities.crate]
+		"Max Items" = 1280
+
 	[oddities.pipes]
+		#How long it takes for an item to cross a pipe. Bigger = slower.
+		"Pipe Speed" = 5
 		#Set to 0 if you don't want pipes to have a max amount of items
 		"Max Pipe Items" = 16
 		#When items eject or are absorbed by pipes, should they make sounds?
 		"Do Pipes Whoosh" = true
-		#How long it takes for an item to cross a pipe. Bigger = slower.
-		"Pipe Speed" = 5
-
-	[oddities.crate]
-		"Max Items" = 1280
 
 [experimental]
 	"Adjustable Chat" = false
@@ -1761,15 +1764,15 @@
 	[experimental.game_nerfs]
 		#Makes Mending act like the Unmending mod
 		#https://www.curseforge.com/minecraft/mc-mods/unmending
-		"Nerf Mending" = false
+		"Nerf Mending" = true
 		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
-		"Nerf Villager Discount" = false
+		"Nerf Villager Discount" = true
 		#Makes Iron Golems not drop Iron Ingots
 		"Disable Iron Farms" = true
 		#Makes Boats not glide on ice
-		"Disable Ice Roads" = false
+		"Disable Ice Roads" = true
 		#Makes Sheep not drop Wool when killed
-		"Disable Wool Drops" = false
+		"Disable Wool Drops" = true
 
 	[experimental.overlay_shader]
 		#Sets the name of the shader to load on a regular basis. This can load any shader the Camera module can (and requires the Camera module enabled to apply said logic).

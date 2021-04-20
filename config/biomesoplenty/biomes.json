@@ -115,10 +115,6 @@
     }
   },
   "sub_biome_weights": {
-    "biomesoplenty:bayou_mangrove": {
-      "weight": 100,
-      "rarity": 1.0
-    },
     "biomesoplenty:burnt_forest": {
       "weight": 100,
       "rarity": 0.75
@@ -130,10 +126,6 @@
     "biomesoplenty:dead_swamp": {
       "weight": 100,
       "rarity": 0.75
-    },
-    "biomesoplenty:deep_bayou": {
-      "weight": 100,
-      "rarity": 1.0
     },
     "biomesoplenty:dry_boneyard": {
       "weight": 100,
@@ -174,10 +166,6 @@
     "biomesoplenty:jade_grassland": {
       "weight": 100,
       "rarity": 0.85
-    },
-    "biomesoplenty:lavender_forest": {
-      "weight": 100,
-      "rarity": 0.6
     },
     "biomesoplenty:lush_savanna": {
       "weight": 100,

@@ -1,0 +1,27 @@
+{
+    "key": "towerwood",
+    "category": "wood",
+    "primary": "4",
+    "secondary": "4.2",
+    "tertiary": "6",
+    "durability": "129",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "1",
+    "toolEfficiency": "2",
+    "tints": {
+        "glyph": "A05720",
+        "texture": "A05720"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "twilightforest:tower_wood_cracked"
+    },
+    "requiredTools": {
+        "axe": 1
+    }
+}

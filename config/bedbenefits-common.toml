@@ -6,3 +6,4 @@
 	restore-health = true
 	#Range: 0.0 ~ 1.7976931348623157E308
 	restore-health-amount = 2.0
+

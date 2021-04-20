@@ -1,0 +1,27 @@
+{
+    "key": "naga_scale",
+    "category": "scale",
+    "primary": "6",
+    "secondary": "0.6",
+    "tertiary": "1",
+    "durability": "492",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "112",
+    "toolLevel": "0",
+    "toolEfficiency": "0",
+    "tints": {
+        "glyph": "1B361E",
+        "texture": "1B361E"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "twilightforest:naga_scale"
+    },
+    "requiredTools": {
+        "cut": 3
+    }
+}

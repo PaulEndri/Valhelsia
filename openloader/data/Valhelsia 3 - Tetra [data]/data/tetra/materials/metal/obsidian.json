@@ -1,0 +1,27 @@
+{
+  "key": "obsidian",
+  "category": "metal",
+  "primary": "8.26",
+  "secondary": "3.4",
+  "tertiary": "1",
+  "durability": "2187",
+  "integrityCost": "2",
+  "integrityGain": "8",
+  "magicCapacity": "100",
+  "toolLevel": "5",
+  "toolEfficiency": "10",
+  "tints": {
+    "glyph": "340863",
+    "texture": "240645"
+  },
+  "textures": ["default", "metal"],
+  "material": {
+    "tag": "forge:ingots/obsidian"
+  },
+  "effects": {
+    "stabilizing": 20
+  },
+  "requiredTools": {
+    "hammer": 6
+  }
+}

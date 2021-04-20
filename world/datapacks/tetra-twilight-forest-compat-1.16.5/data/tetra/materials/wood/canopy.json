@@ -1,0 +1,27 @@
+{
+    "key": "canopy",
+    "category": "wood",
+    "primary": "3",
+    "secondary": "3.5",
+    "tertiary": "6",
+    "durability": "109",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "1",
+    "toolEfficiency": "2",
+    "tints": {
+        "glyph": "8E6844",
+        "texture": "8E6844"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "twilightforest:canopy_planks"
+    },
+    "requiredTools": {
+        "axe": 1
+    }
+}

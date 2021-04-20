@@ -20,6 +20,14 @@
 			maxSizePercentage = 0.5
 			#The list of biome ids that baby creepers will not spawn in even if the normal mob variant can spawn.
 			biomeBlackList = []
+			#The multiplier for spawn cost per entity of baby creepers spawns, compared to the adult mob.
+			#Range: 0.0 ~ 100.0
+			spawnCostPerEntityPercentage = 1.0
+			#The multiplier for max spawn cost of baby creepers spawns, compared to the adult mob.
+			#Range: 0.0 ~ 100.0
+			maxSpawnCostPercentage = 1.0
+			#The list of structure ids that baby creepers will not spawn in even if the normal mob variant can spawn.
+			structureBlackList = []
 
 		#Config options regarding baby endermen.
 		[additions-common.spawning.baby-endermen]
@@ -36,6 +44,14 @@
 			maxSizePercentage = 0.5
 			#The list of biome ids that baby endermen will not spawn in even if the normal mob variant can spawn.
 			biomeBlackList = []
+			#The multiplier for spawn cost per entity of baby endermen spawns, compared to the adult mob.
+			#Range: 0.0 ~ 100.0
+			spawnCostPerEntityPercentage = 1.0
+			#The multiplier for max spawn cost of baby endermen spawns, compared to the adult mob.
+			#Range: 0.0 ~ 100.0
+			maxSpawnCostPercentage = 1.0
+			#The list of structure ids that baby endermen will not spawn in even if the normal mob variant can spawn.
+			structureBlackList = []
 
 		#Config options regarding baby skeletons.
 		[additions-common.spawning.baby-skeletons]
@@ -52,6 +68,14 @@
 			maxSizePercentage = 0.5
 			#The list of biome ids that baby skeletons will not spawn in even if the normal mob variant can spawn.
 			biomeBlackList = []
+			#The multiplier for spawn cost per entity of baby skeletons spawns, compared to the adult mob.
+			#Range: 0.0 ~ 100.0
+			spawnCostPerEntityPercentage = 1.0
+			#The multiplier for max spawn cost of baby skeletons spawns, compared to the adult mob.
+			#Range: 0.0 ~ 100.0
+			maxSpawnCostPercentage = 1.0
+			#The list of structure ids that baby skeletons will not spawn in even if the normal mob variant can spawn.
+			structureBlackList = []
 
 		#Config options regarding baby strays.
 		[additions-common.spawning.baby-strays]
@@ -68,6 +92,14 @@
 			maxSizePercentage = 0.5
 			#The list of biome ids that baby strays will not spawn in even if the normal mob variant can spawn.
 			biomeBlackList = []
+			#The multiplier for spawn cost per entity of baby strays spawns, compared to the adult mob.
+			#Range: 0.0 ~ 100.0
+			spawnCostPerEntityPercentage = 1.0
+			#The multiplier for max spawn cost of baby strays spawns, compared to the adult mob.
+			#Range: 0.0 ~ 100.0
+			maxSpawnCostPercentage = 1.0
+			#The list of structure ids that baby strays will not spawn in even if the normal mob variant can spawn.
+			structureBlackList = []
 
 		#Config options regarding baby wither skeletons.
 		[additions-common.spawning.baby-wither-skeletons]
@@ -84,3 +116,12 @@
 			maxSizePercentage = 0.5
 			#The list of biome ids that baby wither skeletons will not spawn in even if the normal mob variant can spawn.
 			biomeBlackList = []
+			#The multiplier for spawn cost per entity of baby wither skeletons spawns, compared to the adult mob.
+			#Range: 0.0 ~ 100.0
+			spawnCostPerEntityPercentage = 1.0
+			#The multiplier for max spawn cost of baby wither skeletons spawns, compared to the adult mob.
+			#Range: 0.0 ~ 100.0
+			maxSpawnCostPercentage = 1.0
+			#The list of structure ids that baby wither skeletons will not spawn in even if the normal mob variant can spawn.
+			structureBlackList = []
+

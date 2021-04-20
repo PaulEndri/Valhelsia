@@ -1,0 +1,153 @@
+{
+  "slots": [
+    "double/head_left",
+    "double/head_right"
+  ],
+  "keySuffixes": [
+    "_left",
+    "_right"
+  ],
+  "materialSlotCount": 1,
+  "glyph": {
+    "textureX": 64
+  },
+  "displayType": "major",
+  "outcomes": [
+    {
+      "material": {
+        "item": "twilightforest:ironwood_ingot"
+      },
+      "requiredTools": {
+        "hammer": 2
+      },
+      "moduleKey": "double/basic_hammer",
+      "moduleVariant": "basic_hammer/ironwood"
+    },
+	{
+      "material": {
+        "item": "twilightforest:fiery_ingot"
+      },
+      "requiredTools": {
+        "hammer": 6
+      },
+      "moduleKey": "double/basic_hammer",
+      "moduleVariant": "basic_hammer/fierymetal"
+    },
+	{
+      "material": {
+        "item": "twilightforest:knightmetal_ingot"
+      },
+      "requiredTools": {
+        "hammer": 4
+      },
+      "moduleKey": "double/basic_hammer",
+      "moduleVariant": "basic_hammer/knightmetal"
+    },
+	{
+      "material": {
+        "item": "twilightforest:steeleaf"
+      },
+      "requiredTools": {
+        "hammer": 4
+      },
+      "moduleKey": "double/basic_hammer",
+      "moduleVariant": "basic_hammer/steeleaf"
+    },
+	{
+      "material": {
+        "item": "twilightforest:twilight_oak_planks"
+      },
+	  "toolFactor": 0,
+      "moduleKey": "double/basic_hammer",
+      "moduleVariant": "basic_hammer/twilight_oak"
+    },
+	{
+      "material": {
+        "item": "twilightforest:canopy_planks"
+      },
+	  "toolFactor": 0,
+      "moduleKey": "double/basic_hammer",
+      "moduleVariant": "basic_hammer/canopy"
+    },
+	{
+      "material": {
+        "item": "twilightforest:mangrove_planks"
+      },
+	  "toolFactor": 0,
+      "moduleKey": "double/basic_hammer",
+      "moduleVariant": "basic_hammer/mangrove"
+    },
+	{
+      "material": {
+        "item": "twilightforest:time_planks"
+      },
+	  "toolFactor": 0,
+      "moduleKey": "double/basic_hammer",
+      "moduleVariant": "basic_hammer/timewood"
+    },
+	{
+      "material": {
+        "item": "twilightforest:dark_planks"
+      },
+	  "toolFactor": 0,
+      "moduleKey": "double/basic_hammer",
+      "moduleVariant": "basic_hammer/darkwood"
+    },
+	{
+      "material": {
+        "item": "twilightforest:sort_planks"
+      },
+	  "toolFactor": 0,
+      "moduleKey": "double/basic_hammer",
+      "moduleVariant": "basic_hammer/sortingwood"
+    },
+	{
+      "material": {
+        "item": "twilightforest:mine_planks"
+      },
+	  "toolFactor": 0,
+      "moduleKey": "double/basic_hammer",
+      "moduleVariant": "basic_hammer/minewood"
+    },
+	{
+      "material": {
+        "item": "twilightforest:tower_wood"
+      },
+	  "toolFactor": 0,
+      "moduleKey": "double/basic_hammer",
+      "moduleVariant": "basic_hammer/towerwood"
+    },
+	{
+      "material": {
+		"item": "twilightforest:tower_wood_encased"
+      },
+	  "toolFactor": 0,
+      "moduleKey": "double/basic_hammer",
+      "moduleVariant": "basic_hammer/towerwood"
+    },
+	{
+      "material": {
+		"item": "twilightforest:tower_wood_cracked"
+      },
+	  "toolFactor": 0,
+      "moduleKey": "double/basic_hammer",
+      "moduleVariant": "basic_hammer/towerwood"
+    },
+	{
+      "material": {
+		"item": "twilightforest:tower_wood_mossy"
+      },
+	  "toolFactor": 0,
+      "moduleKey": "double/basic_hammer",
+      "moduleVariant": "basic_hammer/towerwood"
+    },
+	{
+      "material": {
+		"item": "twilightforest:tower_wood_infested"
+      },
+	  "toolFactor": 0,
+      "moduleKey": "double/basic_hammer",
+      "moduleVariant": "basic_hammer/towerwood"
+    }
+  ]
+}

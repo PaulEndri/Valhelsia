@@ -1,0 +1,27 @@
+{
+    "key": "ironwood",
+    "category": "metal",
+    "primary": "5",
+    "secondary": "3.8",
+    "tertiary": "7",
+    "durability": "512",
+    "integrityCost": "2",
+    "integrityGain": "5",
+    "magicCapacity": "90",
+    "toolLevel": "3",
+    "toolEfficiency": "6",
+    "tints": {
+        "glyph": "DBD5AD",
+        "texture": "DBD5AD"
+    },
+    "textures": [
+        "rough",
+        "crude"
+    ],
+    "material": {
+        "item": "twilightforest:ironwood_ingot"
+    },
+    "requiredTools": {
+        "hammer": 2
+    }
+}

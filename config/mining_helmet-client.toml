@@ -13,3 +13,4 @@
 		#How far away you should be able to see light from a mining helmet from other mobs (measured in blocks). 0 for infinite distance. Use this to prevent far away mobs from causing light updates.
 		#Range: > 0
 		maxVisibleDistance = 256
+

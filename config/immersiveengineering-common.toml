@@ -24,4 +24,6 @@ importantInfo = true
 [compat]
 	computercraft = true
 	crafttweaker = false
-  theoneprobe = false
+	theoneprobe = false
+	curios = true
+

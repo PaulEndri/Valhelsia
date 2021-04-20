@@ -1,0 +1,27 @@
+{
+    "key": "steeleaf",
+	"category": "metal",
+    "primary": "6",
+    "secondary": "2.9",
+    "tertiary": "3.5",
+    "durability": "232",
+    "integrityCost": "2",
+    "integrityGain": "8",
+    "magicCapacity": "128",
+    "toolLevel": "5",
+    "toolEfficiency": "8",
+    "tints": {
+        "glyph": "5C9958",
+        "texture": "5C9958"
+    },
+    "textures": [
+        "shiny",
+        "metal"
+    ],
+    "material": {
+        "item": "twilightforest:steeleaf_ingot"
+    },
+    "requiredTools": {
+        "hammer": 4
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "key": "fierymetal",
+    "category": "metal",
+    "primary": "8.24",
+    "secondary": "2.9",
+    "tertiary": "3.5",
+    "durability": "1024",
+    "integrityCost": "2",
+    "integrityGain": "8",
+    "magicCapacity": "90",
+    "toolLevel": "5",
+    "toolEfficiency": "9",
+	"effects": {
+        "fierySelf": [2, 0.1]
+    },
+    "tints": {
+        "glyph": "FFBE00",
+        "texture": "FFBE00"
+    },
+    "textures": [
+        "shiny",
+        "metal"
+    ],
+    "material": {
+        "item": "twilightforest:fiery_ingot"
+    },
+    "requiredTools": {
+        "hammer": 6
+    }
+}

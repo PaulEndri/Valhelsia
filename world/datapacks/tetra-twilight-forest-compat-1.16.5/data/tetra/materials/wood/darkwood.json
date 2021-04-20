@@ -1,0 +1,27 @@
+{
+    "key": "darkwood",
+    "category": "wood",
+    "primary": "3",
+    "secondary": "1.7",
+    "tertiary": "6",
+    "durability": "84",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "1",
+    "toolEfficiency": "2",
+    "tints": {
+        "glyph": "FF9C51",
+        "texture": "FF9C51"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "item": "twilightforest:dark_planks"
+    },
+    "requiredTools": {
+        "axe": 1
+    }
+}
